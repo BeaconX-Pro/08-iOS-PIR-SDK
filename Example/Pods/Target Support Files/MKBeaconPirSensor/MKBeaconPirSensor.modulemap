@@ -1,0 +1,6 @@
+framework module MKBeaconPirSensor {
+  umbrella header "MKBeaconPirSensor-umbrella.h"
+
+  export *
+  module * { export * }
+}
