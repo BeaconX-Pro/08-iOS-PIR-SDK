@@ -386,7 +386,7 @@ MKCQTabBarControllerDelegate>
     [alertView addAction:cancelAction];
     [alertView addAction:confirmAction];
     [alertView addTextField:textField];
-    [alertView showAlertWithTitle:@"Enter password" message:msg notificationName:@"mk_bxs_needDismissAlert"];
+    [alertView showAlertWithTitle:@"Enter password" message:msg notificationName:@"mk_cq_needDismissAlert"];
 }
 
 
@@ -407,25 +407,23 @@ MKCQTabBarControllerDelegate>
 
 #pragma mark - private method
 - (void)showAuthorizationAlert {
-    NSString *promtpMessage = @"This function requires Bluetooth authorization, please enable MK Tag permission in Settings-Privacy-Bluetooth.";
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@""
-                                                                             message:promtpMessage
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *moreAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
-    [alertController addAction:moreAction];
-    
-    [self presentViewController:alertController animated:YES completion:nil];
+    MKAlertViewAction *confirmAction = [[MKAlertViewAction alloc] initWithTitle:@"OK" handler:^{
+        
+    }];
+    NSString *msg = @"This function requires Bluetooth authorization, please enable PirSensor permission in Settings-Privacy-Bluetooth.";
+    MKAlertView *alertView = [[MKAlertView alloc] init];
+    [alertView addAction:confirmAction];
+    [alertView showAlertWithTitle:@"Warning!" message:msg notificationName:@"mk_cp_needDismissAlert"];
 }
 
 - (void)showBLEDisable {
+    MKAlertViewAction *confirmAction = [[MKAlertViewAction alloc] initWithTitle:@"OK" handler:^{
+        
+    }];
     NSString *msg = @"The current system of bluetooth is not available!";
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@""
-                                                                             message:msg
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *moreAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
-    [alertController addAction:moreAction];
-    
-    [self presentViewController:alertController animated:YES completion:nil];
+    MKAlertView *alertView = [[MKAlertView alloc] init];
+    [alertView addAction:confirmAction];
+    [alertView showAlertWithTitle:@"Warning!" message:msg notificationName:@"mk_cp_needDismissAlert"];
 }
 
 #pragma mark - UI

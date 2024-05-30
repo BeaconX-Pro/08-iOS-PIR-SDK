@@ -214,7 +214,7 @@ mk_textSwitchCellDelegate>
     MKAlertViewTextField *passwordField = [[MKAlertViewTextField alloc] initWithTextValue:@""
                                                                               placeholder:@"Enter new password"
                                                                             textFieldType:mk_normal
-                                                                                maxLength:16
+                                                                                maxLength:8
                                                                                   handler:^(NSString * _Nonnull text) {
         @strongify(self);
         self.passwordAsciiStr = text;
@@ -235,7 +235,7 @@ mk_textSwitchCellDelegate>
     [alertView addAction:confirmAction];
     [alertView addTextField:passwordField];
     [alertView addTextField:confirmField];
-    [alertView showAlertWithTitle:@"Modify password" message:msg notificationName:@"mk_bxb_needDismissAlert"];
+    [alertView showAlertWithTitle:@"Modify password" message:msg notificationName:@"mk_cq_needDismissAlert"];
 }
 
 - (void)setPasswordToDevice{
