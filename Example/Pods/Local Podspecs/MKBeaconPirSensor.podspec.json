@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "A short description of MKBeaconPirSensor.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lovexiaoxia/MKBeaconPirSensor",
+  "homepage": "https://github.com/BeaconX-Pro/08-iOS-PIR-SDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "lovexiaoxia": "aadyx2007@163.com"
   },
   "source": {
-    "git": "https://github.com/lovexiaoxia/MKBeaconPirSensor.git",
+    "git": "https://github.com/BeaconX-Pro/08-iOS-PIR-SDK.git",
     "tag": "0.0.1"
   },
   "platforms": {
@@ -28,68 +28,42 @@
       "name": "ConnectManager",
       "source_files": "MKBeaconPirSensor/Classes/ConnectManager/**",
       "dependencies": {
-        "MKBaseModuleLibrary": [
-
-        ],
-        "MKBeaconPirSensor/SDK": [
-
-        ]
+        "MKBaseModuleLibrary": [],
+        "MKBeaconPirSensor/SDK": []
       }
     },
     {
       "name": "CTMediator",
       "source_files": "MKBeaconPirSensor/Classes/CTMediator/**",
       "dependencies": {
-        "CTMediator": [
-
-        ]
+        "CTMediator": []
       }
     },
     {
       "name": "SDK",
       "source_files": "MKBeaconPirSensor/Classes/SDK/**",
       "dependencies": {
-        "MKBaseBleModule": [
-
-        ]
+        "MKBaseBleModule": []
       }
     },
     {
       "name": "Target",
       "source_files": "MKBeaconPirSensor/Classes/Target/**",
       "dependencies": {
-        "MKBeaconPirSensor/Functions": [
-
-        ]
+        "MKBeaconPirSensor/Functions": []
       }
     },
     {
       "name": "Functions",
       "dependencies": {
-        "MKBeaconPirSensor/ConnectManager": [
-
-        ],
-        "MKBeaconPirSensor/SDK": [
-
-        ],
-        "MKBeaconPirSensor/CTMediator": [
-
-        ],
-        "MKBaseModuleLibrary": [
-
-        ],
-        "MKCustomUIModule": [
-
-        ],
-        "MKBeaconXCustomUI": [
-
-        ],
-        "HHTransition": [
-
-        ],
-        "MLInputDodger": [
-
-        ],
+        "MKBeaconPirSensor/ConnectManager": [],
+        "MKBeaconPirSensor/SDK": [],
+        "MKBeaconPirSensor/CTMediator": [],
+        "MKBaseModuleLibrary": [],
+        "MKCustomUIModule": [],
+        "MKBeaconXCustomUI": [],
+        "HHTransition": [],
+        "MLInputDodger": [],
         "iOSDFULibrary": [
           "4.13.0"
         ]
@@ -111,12 +85,8 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/AdvertisementPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/AdvertisementPage/Model": [
-
-                ],
-                "MKBeaconPirSensor/Functions/AdvertisementPage/View": [
-
-                ]
+                "MKBeaconPirSensor/Functions/AdvertisementPage/Model": [],
+                "MKBeaconPirSensor/Functions/AdvertisementPage/View": []
               }
             },
             {
@@ -136,9 +106,7 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/DeviceInfoPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/DeviceInfoPage/Model": [
-
-                ]
+                "MKBeaconPirSensor/Functions/DeviceInfoPage/Model": []
               }
             },
             {
@@ -154,12 +122,8 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/PirHallSensorPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/PirHallSensorPage/Model": [
-
-                ],
-                "MKBeaconPirSensor/Functions/PirHallSensorPage/View": [
-
-                ]
+                "MKBeaconPirSensor/Functions/PirHallSensorPage/Model": [],
+                "MKBeaconPirSensor/Functions/PirHallSensorPage/View": []
               }
             },
             {
@@ -179,18 +143,10 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/ScanPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/ScanPage/Model": [
-
-                ],
-                "MKBeaconPirSensor/Functions/ScanPage/View": [
-
-                ],
-                "MKBeaconPirSensor/Functions/TabBarPage/Controller": [
-
-                ],
-                "MKBeaconPirSensor/Functions/AboutPage/Controller": [
-
-                ]
+                "MKBeaconPirSensor/Functions/ScanPage/Model": [],
+                "MKBeaconPirSensor/Functions/ScanPage/View": [],
+                "MKBeaconPirSensor/Functions/TabBarPage/Controller": [],
+                "MKBeaconPirSensor/Functions/AboutPage/Controller": []
               }
             },
             {
@@ -201,9 +157,7 @@
               "name": "View",
               "source_files": "MKBeaconPirSensor/Classes/Functions/ScanPage/View/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/ScanPage/Model": [
-
-                ]
+                "MKBeaconPirSensor/Functions/ScanPage/Model": []
               }
             }
           ]
@@ -215,15 +169,9 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/SettingPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/SettingPage/Model": [
-
-                ],
-                "MKBeaconPirSensor/Functions/PirHallSensorPage/Controller": [
-
-                ],
-                "MKBeaconPirSensor/Functions/UpdatePage/Controller": [
-
-                ]
+                "MKBeaconPirSensor/Functions/SettingPage/Model": [],
+                "MKBeaconPirSensor/Functions/PirHallSensorPage/Controller": [],
+                "MKBeaconPirSensor/Functions/UpdatePage/Controller": []
               }
             },
             {
@@ -239,15 +187,9 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/TabBarPage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/AdvertisementPage/Controller": [
-
-                ],
-                "MKBeaconPirSensor/Functions/SettingPage/Controller": [
-
-                ],
-                "MKBeaconPirSensor/Functions/DeviceInfoPage/Controller": [
-
-                ]
+                "MKBeaconPirSensor/Functions/AdvertisementPage/Controller": [],
+                "MKBeaconPirSensor/Functions/SettingPage/Controller": [],
+                "MKBeaconPirSensor/Functions/DeviceInfoPage/Controller": []
               }
             }
           ]
@@ -259,9 +201,7 @@
               "name": "Controller",
               "source_files": "MKBeaconPirSensor/Classes/Functions/UpdatePage/Controller/**",
               "dependencies": {
-                "MKBeaconPirSensor/Functions/UpdatePage/Model": [
-
-                ]
+                "MKBeaconPirSensor/Functions/UpdatePage/Model": []
               }
             },
             {
