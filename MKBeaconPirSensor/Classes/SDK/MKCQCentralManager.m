@@ -404,7 +404,6 @@ static dispatch_once_t onceToken;
     if (![[[MKBLEBaseSDKAdopter hexStringFromData:manuId] lowercaseString] isEqualToString:@"0a62"]) {
         return @{};
     }
-    
     NSLog(@"%@",advDic);
     
     NSString *content = [MKBLEBaseSDKAdopter hexStringFromData:[manufacturerData subdataWithRange:NSMakeRange(4, 21)]];
@@ -466,10 +465,10 @@ static dispatch_once_t onceToken;
     NSString *timestamp = [NSString stringWithFormat:@"%@/%@/%@/%@:%@:%@",yearString,monthString,dayString,hourString,minuteString,secondString];
         
     NSString *voltage = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(28, 4)];
-    NSString *major = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(32, 2)];
-    NSString *minor = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(34, 2)];
+    NSString *major = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(32, 4)];
+    NSString *minor = [MKBLEBaseSDKAdopter getDecimalStringWithHex:content range:NSMakeRange(36, 4)];
     
-    NSNumber *rssi1MValue = [MKBLEBaseSDKAdopter signedHexTurnString:[content substringWithRange:NSMakeRange(36, 2)]];
+    NSNumber *rssi1MValue = [MKBLEBaseSDKAdopter signedHexTurnString:[content substringWithRange:NSMakeRange(40, 2)]];
     NSString *rssi1M = [NSString stringWithFormat:@"%@",rssi1MValue];
         
     [self logToLocal:[@"扫描到设备:" stringByAppendingString:content]];
