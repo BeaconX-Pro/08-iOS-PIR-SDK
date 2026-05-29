@@ -8,132 +8,97 @@ PODS:
   - Masonry (1.1.0)
   - MJRefresh (3.7.9)
   - MKBaseBleModule (1.1.4)
-  - MKBaseModuleLibrary (2.2.6):
+  - MKBaseModuleLibrary (2.2.7):
     - Masonry (~> 1.1)
-    - MKBaseModuleLibrary/Base (= 2.2.6)
-    - MKBaseModuleLibrary/Category (= 2.2.6)
-    - MKBaseModuleLibrary/Defines (= 2.2.6)
-    - MKBaseModuleLibrary/Tools (= 2.2.6)
+    - MKBaseModuleLibrary/Base (= 2.2.7)
+    - MKBaseModuleLibrary/Category (= 2.2.7)
+    - MKBaseModuleLibrary/Defines (= 2.2.7)
+    - MKBaseModuleLibrary/Tools (= 2.2.7)
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base (2.2.6):
+  - MKBaseModuleLibrary/Base (2.2.7):
     - Masonry (~> 1.1)
-    - MKBaseModuleLibrary/Base/Controller (= 2.2.6)
-    - MKBaseModuleLibrary/Base/MKBaseCell (= 2.2.6)
-    - MKBaseModuleLibrary/Base/NavigationController (= 2.2.6)
-    - MKBaseModuleLibrary/Base/View (= 2.2.6)
+    - MKBaseModuleLibrary/Base/Controller (= 2.2.7)
+    - MKBaseModuleLibrary/Base/MKBaseCell (= 2.2.7)
+    - MKBaseModuleLibrary/Base/NavigationController (= 2.2.7)
+    - MKBaseModuleLibrary/Base/View (= 2.2.7)
     - MKBaseModuleLibrary/Category
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/Controller (2.2.6):
+  - MKBaseModuleLibrary/Base/Controller (2.2.7):
     - Masonry (~> 1.1)
+    - MKBaseModuleLibrary/Base/View/NavigationBar
     - MKBaseModuleLibrary/Category
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/MKBaseCell (2.2.6):
-    - Masonry (~> 1.1)
-    - MKBaseModuleLibrary/Category
-    - MKBaseModuleLibrary/Defines
-    - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/NavigationController (2.2.6):
+  - MKBaseModuleLibrary/Base/MKBaseCell (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Category
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/View (2.2.6):
-    - Masonry (~> 1.1)
-    - MKBaseModuleLibrary/Base/View/CollectionView (= 2.2.6)
-    - MKBaseModuleLibrary/Base/View/TableView (= 2.2.6)
-    - MKBaseModuleLibrary/Category
-    - MKBaseModuleLibrary/Defines
-    - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/View/CollectionView (2.2.6):
+  - MKBaseModuleLibrary/Base/NavigationController (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Category
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Base/View/TableView (2.2.6):
+  - MKBaseModuleLibrary/Base/View (2.2.7):
+    - Masonry (~> 1.1)
+    - MKBaseModuleLibrary/Base/View/CollectionView (= 2.2.7)
+    - MKBaseModuleLibrary/Base/View/NavigationBar (= 2.2.7)
+    - MKBaseModuleLibrary/Base/View/TableView (= 2.2.7)
+    - MKBaseModuleLibrary/Category
+    - MKBaseModuleLibrary/Defines
+    - Toast (~> 4.1)
+  - MKBaseModuleLibrary/Base/View/CollectionView (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Category
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Category (2.2.6):
+  - MKBaseModuleLibrary/Base/View/NavigationBar (2.2.7):
+    - Masonry (~> 1.1)
+    - MKBaseModuleLibrary/Category
+    - MKBaseModuleLibrary/Defines
+    - Toast (~> 4.1)
+  - MKBaseModuleLibrary/Base/View/TableView (2.2.7):
+    - Masonry (~> 1.1)
+    - MKBaseModuleLibrary/Category
+    - MKBaseModuleLibrary/Defines
+    - Toast (~> 4.1)
+  - MKBaseModuleLibrary/Category (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Defines
     - MKBaseModuleLibrary/Tools/MKClassInfo
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Defines (2.2.6):
+  - MKBaseModuleLibrary/Defines (2.2.7):
     - Masonry (~> 1.1)
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Tools (2.2.6):
+  - MKBaseModuleLibrary/Tools (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Defines
-    - MKBaseModuleLibrary/Tools/MKClassInfo (= 2.2.6)
-    - MKBaseModuleLibrary/Tools/MKExcelManager (= 2.2.6)
+    - MKBaseModuleLibrary/Tools/MKClassInfo (= 2.2.7)
+    - MKBaseModuleLibrary/Tools/MKExcelManager (= 2.2.7)
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Tools/MKClassInfo (2.2.6):
+  - MKBaseModuleLibrary/Tools/MKClassInfo (2.2.7):
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Defines
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBaseModuleLibrary/Tools/MKExcelManager (2.2.6):
+  - MKBaseModuleLibrary/Tools/MKExcelManager (2.2.7):
     - libxlsxwriter (~> 1.1.7)
     - Masonry (~> 1.1)
     - MKBaseModuleLibrary/Defines
     - SSZipArchive (~> 2.4.0)
     - Toast (~> 4.1)
-    - WRNavigationBar (~> 1.4)
-  - MKBeaconPirSensor (0.0.1):
-    - MKBeaconPirSensor/ConnectManager (= 0.0.1)
-    - MKBeaconPirSensor/CTMediator (= 0.0.1)
-    - MKBeaconPirSensor/Functions (= 0.0.1)
-    - MKBeaconPirSensor/SDK (= 0.0.1)
-    - MKBeaconPirSensor/Target (= 0.0.1)
-  - MKBeaconPirSensor/ConnectManager (0.0.1):
+  - MKBeaconPirSensor (0.0.2):
+    - MKBeaconPirSensor/ConnectManager (= 0.0.2)
+    - MKBeaconPirSensor/CTMediator (= 0.0.2)
+    - MKBeaconPirSensor/Functions (= 0.0.2)
+    - MKBeaconPirSensor/SDK (= 0.0.2)
+    - MKBeaconPirSensor/Target (= 0.0.2)
+  - MKBeaconPirSensor/ConnectManager (0.0.2):
     - MKBaseModuleLibrary
     - MKBeaconPirSensor/SDK
-  - MKBeaconPirSensor/CTMediator (0.0.1):
+  - MKBeaconPirSensor/CTMediator (0.0.2):
     - CTMediator
-  - MKBeaconPirSensor/Functions (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AboutPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/AdvertisementPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/DeviceInfoPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/PirHallSensorPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/ScanPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/SettingPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/TabBarPage (= 0.0.1)
-    - MKBeaconPirSensor/Functions/UpdatePage (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/AboutPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AboutPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/AboutPage/Controller (0.0.1):
+  - MKBeaconPirSensor/Functions (0.0.2):
     - HHTransition
     - iOSDFULibrary (= 4.13.0)
     - MKBaseModuleLibrary
@@ -143,272 +108,9 @@ PODS:
     - MKBeaconXCustomUI
     - MKCustomUIModule
     - MLInputDodger
-  - MKBeaconPirSensor/Functions/AdvertisementPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AdvertisementPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/AdvertisementPage/Model (= 0.0.1)
-    - MKBeaconPirSensor/Functions/AdvertisementPage/View (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/AdvertisementPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AdvertisementPage/Model
-    - MKBeaconPirSensor/Functions/AdvertisementPage/View
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/AdvertisementPage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/AdvertisementPage/View (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/DeviceInfoPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/DeviceInfoPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/DeviceInfoPage/Model (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/DeviceInfoPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/DeviceInfoPage/Model
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/DeviceInfoPage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/PirHallSensorPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/Model (= 0.0.1)
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/View (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/PirHallSensorPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/Model
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/View
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/PirHallSensorPage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/PirHallSensorPage/View (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/ScanPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/ScanPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/ScanPage/Model (= 0.0.1)
-    - MKBeaconPirSensor/Functions/ScanPage/View (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/ScanPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AboutPage/Controller
-    - MKBeaconPirSensor/Functions/ScanPage/Model
-    - MKBeaconPirSensor/Functions/ScanPage/View
-    - MKBeaconPirSensor/Functions/TabBarPage/Controller
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/ScanPage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/ScanPage/View (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/ScanPage/Model
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/SettingPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/SettingPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/SettingPage/Model (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/SettingPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/PirHallSensorPage/Controller
-    - MKBeaconPirSensor/Functions/SettingPage/Model
-    - MKBeaconPirSensor/Functions/UpdatePage/Controller
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/SettingPage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/TabBarPage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/TabBarPage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/TabBarPage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/AdvertisementPage/Controller
-    - MKBeaconPirSensor/Functions/DeviceInfoPage/Controller
-    - MKBeaconPirSensor/Functions/SettingPage/Controller
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/UpdatePage (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/UpdatePage/Controller (= 0.0.1)
-    - MKBeaconPirSensor/Functions/UpdatePage/Model (= 0.0.1)
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/UpdatePage/Controller (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/Functions/UpdatePage/Model
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/Functions/UpdatePage/Model (0.0.1):
-    - HHTransition
-    - iOSDFULibrary (= 4.13.0)
-    - MKBaseModuleLibrary
-    - MKBeaconPirSensor/ConnectManager
-    - MKBeaconPirSensor/CTMediator
-    - MKBeaconPirSensor/SDK
-    - MKBeaconXCustomUI
-    - MKCustomUIModule
-    - MLInputDodger
-  - MKBeaconPirSensor/SDK (0.0.1):
+  - MKBeaconPirSensor/SDK (0.0.2):
     - MKBaseBleModule
-  - MKBeaconPirSensor/Target (0.0.1):
+  - MKBeaconPirSensor/Target (0.0.2):
     - MKBeaconPirSensor/Functions
   - MKBeaconXCustomUI (1.0.10):
     - MKBaseModuleLibrary
@@ -929,7 +631,6 @@ PODS:
   - MLInputDodger (1.5.2)
   - SSZipArchive (2.4.3)
   - Toast (4.1.1)
-  - WRNavigationBar (1.4.0)
   - ZIPFoundation (0.9.11)
 
 DEPENDENCIES:
@@ -951,7 +652,6 @@ SPEC REPOS:
     - MLInputDodger
     - SSZipArchive
     - Toast
-    - WRNavigationBar
     - ZIPFoundation
 
 EXTERNAL SOURCES:
@@ -967,14 +667,13 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   MKBaseBleModule: 15aa067c4e408a473e025b1a768ebce00a7e5949
-  MKBaseModuleLibrary: 42c50100661a5b394e396fbffb402350786dbc55
-  MKBeaconPirSensor: 82f7b372f1d5213e84c6fb2838da10aae660d9d7
+  MKBaseModuleLibrary: b5196f9bf0ddfe4beee6395183c3f616cd996ffd
+  MKBeaconPirSensor: df26d3cbd373002eb4d6bcaf261ab5cde6920008
   MKBeaconXCustomUI: 23e048b00d8caa8b3599bbb70bbe933804c4d361
   MKCustomUIModule: 6304b13cf253c678c46bb6e1ec3bd2c3bb0f0a37
   MLInputDodger: 79a0e420a80d0d3bba122bf2639603cc76609ba8
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
   Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
-  WRNavigationBar: 10bfdf96addf14d640d07c2ef08a029c18d8af10
   ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
 
 PODFILE CHECKSUM: dac64c9a5076ecc0da5634e97ad7ba428e750d4e
