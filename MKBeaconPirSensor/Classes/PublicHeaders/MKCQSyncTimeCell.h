@@ -1,0 +1,1 @@
+../../Classes/Functions/PirHallSensorPage/View/MKCQSyncTimeCell.h

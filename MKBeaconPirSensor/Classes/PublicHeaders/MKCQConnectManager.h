@@ -1,0 +1,1 @@
+../../Classes/ConnectManager/MKCQConnectManager.h

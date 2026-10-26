@@ -1,0 +1,1 @@
+../../Classes/Functions/AdvertisementPage/View/MKCQAdvParaCell.h

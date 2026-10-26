@@ -1,0 +1,1 @@
+../../Classes/Functions/AdvertisementPage/Model/MKCQAdvertisementModel.h

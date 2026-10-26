@@ -1,0 +1,1 @@
+../../Classes/Functions/ScanPage/Model/MKCQScanInfoCellModel.h

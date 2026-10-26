@@ -32,11 +32,15 @@ Developers can use the API `connectPeripheral:password:sucBlock:failedBlock` to 
 
 ### Import to Project
 
-CocoaPods
+Swift Package Manager
 
-SDK is available through [CocoaPods](https://cocoapods.org).To install it, simply add the following line to your Podfile, and then import ` <MKBeaconPirSensor/MKCQSDK.h>` ：
+SDK is available through Swift Package Manager. To install it, add the following line to your Package.swift dependencies, and then import `<MKBeaconPirSensorSDK/MKCQSDK.h>` (SDK-only) or `<MKBeaconPirSensor/MKCQSDK.h>` (full component):
 
-**pod 'MKBeaconPirSensor/SDK'**
+```swift
+.package(url: "https://github.com/lovexiaoxia/MKBeaconPirSensor.git", from: "0.1.0")
+```
+
+Or add it via Xcode: File → Add Packages... and enter the repository URL.
 
 
 * <font color=#FF0000 face="黑体">!!!on iOS 10 and above, Apple add authority control of bluetooth, you need add the string to "info.plist" file of your project: Privacy - Bluetooth Peripheral Usage Description - "your description". as the screenshot below.</font>
