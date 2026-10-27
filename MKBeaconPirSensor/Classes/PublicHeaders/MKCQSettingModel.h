@@ -1,1 +1,0 @@
-../../Classes/Functions/SettingPage/Model/MKCQSettingModel.h

@@ -1,1 +1,0 @@
-../../Classes/Functions/PirHallSensorPage/Model/MKCQPirHallSensorModel.h

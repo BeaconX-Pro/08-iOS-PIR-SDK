@@ -1,1 +1,0 @@
-../../Classes/Functions/DeviceInfoPage/Model/MKCQDeviceInfoModel.h

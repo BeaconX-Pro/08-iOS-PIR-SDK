@@ -1,1 +1,0 @@
-../../Classes/Functions/AdvertisementPage/View/MKCQAdvContentCell.h
